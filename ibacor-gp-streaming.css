@@ -1,0 +1,118 @@
+body{
+	background:#f1f1f1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#ibacor_gp{
+	color:#444;
+	font-size:	14px;
+	padding: 30%;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+#ibacor_gp div.profile a{
+	color:#000;
+}
+#ibacor_gp div.profile a:hover {
+	color:#000;
+}
+div.ibacor_gpstatus {
+	background: #fff;
+	padding:10px;
+	margin-bottom: 20px;
+	border: 1px solid #ced0d6;
+}
+div.ibacor_gpstatus div.profile{
+	margin-bottom:10px;
+	display:block;
+	overflow:hidden;
+	*overflow:visible;
+}
+div.ibacor_gpstatus img.img_prof{
+	float:left;
+	margin-right:10px;
+	border-radius: 50%;
+}
+div#ibacor_gp a {
+	text-decoration: none;
+}
+div#ibacor_gp div.ibacor_urltum {
+	border: 1px solid #ced0d6;
+	padding: 10px;
+}
+div#ibacor_gp div.ibacor_urltum a,div.ibacor_gpstatus .fa{
+	color:#999
+}
+
+div.ibacor_gpstatus div.bottom a{
+	color:#999;
+	margin-right:10px
+}
+div.ibacor_gpstatus div.bottom a:hover{
+	color:#000;
+	text-decoration: none;
+}
+div#ibacor_gp img.tum {
+	width:100%;
+	margin: 10px 0px 10px;
+}
+div.ibacor_gpstatus div.bottom{
+	margin-top:10px;
+	display:block;
+	overflow:hidden;
+	*overflow:visible;
+}
+
+.ibacor_moreg{
+	background: #dd4b39;
+	display: inline-block;
+	padding: 8px 14px;
+	color: #ffffff;
+	text-transform: capitalize;
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.ibacor_moreg:hover{
+	background: #E7E7E7;
+	color: #5F5F5F;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1045px) {
+	#ibacor_gp{
+	padding: 25%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#ibacor_gp{
+	padding: 20%;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+	font-size: 12px;
+	}
+	#ibacor_gp{
+	padding: 15%;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	}
+}
+@media screen and (max-width:479px){
+	body {
+	font-size: 12px;
+	}
+	#ibacor_gp{
+	padding: 10px;
+	}
+}
