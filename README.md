@@ -7,7 +7,7 @@ jQuery-iBacor-Google-Plus-Streaming
 <pre>//---------configuration----------------------
 
 ibacor_gp_streaming(
-	ibacor_gp_username = '+google', // example your gp+ username
+	ibacor_gp_username = '+google', // or ibacor_gp_username = '116899029375914044550',
 	ibacor_gp_key = 'ibacor.com_apps' // =&gt; Default using the API KEY ibacor.com_apps OR you can change it using the API KEY that you have =&gt; example: ibacor_fb_token = '896774747546|62IEt1ttiNma_543fR5NAg8gNtRI' you can get it in <a href="https://developers.google.com/api-client-library/python/guide/aaa_apikeys">https://developers.google.com/api-client-library/python/guide/aaa_apikeys</a>
 );
 </pre>
