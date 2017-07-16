@@ -4,55 +4,50 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
 	
-		<title>jQuery Google Plus Streaming - iBacor.com</title>
-
-		<!-- Include jQuery -->
-		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-
-		<!-- Include jquery.ibacor-gp-streaming -->
-		<script src="js/jquery.ibacor-gp-streaming.min.js"></script>
-
-		<!-- Configuration your google+ username or id & google api key -->
-		<script>
-			ibacor_gp_streaming(
-				ibacor_gp_username = '+google', // example your gp+ username
-				ibacor_gp_key = 'ibacor.com_apps' // => Default using the API KEY ibacor.com_apps OR you can change it using the API KEY that you have => example: ibacor_fb_token = '896774747546|62IEt1ttiNma_543fR5NAg8gNtRI' you can get it in https://developers.google.com/api-client-library/python/guide/aaa_apikeys
-			);
-		</script>
-	
-		<!-- Custom your style -->
-		<link type="text/css" rel="stylesheet" href="css/ibacor-gp-streaming.css" />
+		<title>jQuery Google Plus Stream</title>	
 		
 		<!-- Include Font Awesome v4.1.0 -->
-		<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Custom your style -->
+		<link type="text/css" rel="stylesheet" href="css/GPstream.css" />
 		
-		<!-- Include jQuery fancybox -->
-		<link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"/>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-		<script>
-			$( document ).ready(function() {	   
-				$(".ibacor_gvid").fancybox({   
-					'width'  : '90%',
-					'height'  : '90%',
-					'autoScale'  : false,
-					'transitionIn'  : 'none',
-					'transitionOut'  : 'none',
-					'type'  : 'iframe'
-				});	   
-				$(".ibacor_gpopup").fancybox({   
-					'openEffect'   : 'fade',
-					'closeEffect'   : 'fade',
-					'scrolling'  : 'no'
-				});
-			});
-		</script>
+		<!-- Demo -->
+		<link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet">
+		<style>
+		body {
+			background: #eee;
+			font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			font-weight: 300;
+			line-height: 24px;
+		}
+		.demo {
+			width: auto;
+			min-width: 320px;
+			max-width: 500px;
+			margin: 20px auto
+		}
+		</style>
+		
 	</head>
 	<body>
 		
-		<!-- Display all google+ timeline -->
-		<div id="ibacor_gp"></div>
+		<div class="demo">
 		
-		<a href="https://github.com/bachors/jQuery-iBacor-Google-Plus-Streaming" target="_BLANK"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+			<!-- Display all google+ timeline -->
+			<div id="GPstream"></div>
+			
+		</div>
+		
+		<!-- Include jQuery -->
+		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+		<!-- Include jquery.ibacor-gp-streaming -->
+		<script src="js/GPstream.js"></script>
+		<script>
+			GPstream({
+				user: '+RockstarGames', // +username or userID
+				key: 'API KEY' // => you can get it in https://developers.google.com/api-client-library/python/guide/aaa_apikeys
+			});
+		</script>
 		
 	</body>
 </html>
