@@ -1,0 +1,196 @@
+/******************************************************
+* #### jQuery-Google-Plus-Stream v2.0 ####
+* Coded by Ican Bachors 2014.
+* https://github.com/bachors/jQuery-Google-Plus-Stream
+* Updates will be posted to this site.
+******************************************************/
+
+#GPstream {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+#GPstream .box {
+	display: block;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	padding: 0;
+	margin-bottom: 30px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+#GPstream .box iframe,
+#GPstream .box video {
+	width: 100%;
+	height: auto;
+	min-height: 260px;
+}
+
+#GPstream .box .status-message {
+	display: block;
+	overflow: hidden;
+	padding: 15px 15px 5px;
+	word-wrap: break-word;
+}
+
+#GPstream .box .status-message b {
+	font-size: 1.5em;
+}
+
+#GPstream .box .quot {
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.2;
+}
+
+#GPstream .box .quot b {
+	font-size: 1.5em;
+}
+
+#GPstream .box .quot i {
+	display: block;
+	color: #999;
+}
+
+#GPstream .box .quot i.fa-quote-right {
+	margin-bottom: 15px;
+}
+
+#GPstream .box .quot i.fa-quote-left {
+	margin-top: 15px;
+}
+
+#GPstream .box .status-message a.urls {
+	color: #2879d0;
+	text-decoration: underline	
+}
+
+#GPstream .box .status-user {
+	padding: 15px;
+	position: relative;
+}
+
+#GPstream .box .status-user a,
+#GPstream .box .status-message a.users,
+#GPstream .box .status-message a.tags,
+#GPstream .box .status-message a.titles:hover {
+	color: #2879d0;
+	text-decoration: none;
+}
+
+#GPstream .box .status-message a.titles {
+	color: #000;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: underline
+}
+
+#GPstream .box .status-user a.date {
+	color: #999;
+	text-decoration: none;
+}
+
+#GPstream .box .status-user a.date:hover,
+#GPstream .box .status-user a:hover,
+#GPstream .box .status-message a.users:hover,
+#GPstream .box .status-message a.tags:hover {
+	text-decoration: underline;
+}
+
+#GPstream .box .status-user-image {
+	float: left;
+	width: 45px;
+	height: 45px;
+	margin: 0 12px 0 0;
+	border-radius: 50%;
+}
+
+#GPstream .box .status-user-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+#GPstream .box .status-user-name {
+	margin-top: 0;
+	height: 25px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: 400
+}
+
+#GPstream .box .status-user-name a {
+	color: #000
+}
+
+#GPstream .box .status-type {
+	position: absolute;
+	right: 15px;
+	bottom: 11px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#GPstream .box .status-type .fa-google-plus {
+	color: #FF6C60
+}
+
+#GPstream .box img.feed_galeri {
+	width: 100%
+}
+
+#GPstream .box .status-bottom {
+	display: block;
+	width: 100%;
+	height: 45px;
+	background: #fafafa;
+	padding: 0;
+	position: relative
+}
+
+#GPstream .box .status-bottom a {
+	color: #999;
+	text-decoration: none;
+	background: #fafafa;
+	border-top: 1px solid #ccc;
+	float: left;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#GPstream .box .tilu a {
+	width: 33.33%;
+}
+
+#GPstream #feed-more {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	padding: 15px 20px 15px 20px;
+	background: #d34836;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none
+}
+
+#GPstream #feed-more:hover {
+    background-color: #eee;
+	color: #34495e;
+}
